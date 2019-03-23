@@ -17,6 +17,7 @@ Persistent Store:
 
 Swagger:
 POST /api/helloworld
+
     Request Body:
     {
         "id": "<Guid>",
@@ -33,6 +34,7 @@ POST /api/helloworld
     None
 
 GET /api/<Guid>
+
     Request Body:
     None
 
