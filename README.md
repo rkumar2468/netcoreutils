@@ -33,7 +33,7 @@ POST /api/helloworld
     Response Body:
     None
 
-GET /api/<Guid>
+GET /api/id/someguid
 
     Request Body:
     None
@@ -43,7 +43,7 @@ GET /api/<Guid>
 
     Response Body:
     {
-        "id": "<Guid>",
+        "id": "someguid",
         "content": {
             "type": "text",
             "value": "hello world"
